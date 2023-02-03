@@ -1,0 +1,45 @@
+.wrapper {
+}
+
+.main {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+	.main__cup {
+		height: 100vh;
+		background-image: url("https://smartcafe.site/wp-content/uploads/2020/04/smart-style-back-green.jpg");
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-size: cover;
+		pointer-events: none;
+	}
+	.main__phrase {
+		text-align: center;
+		font-size: 100pt;
+		line-height: 90%;
+		font-weight: 300;
+		margin-block-start: 0.83em;
+		margin-block-end: 0.83em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		user-select: none;
+	}
+	.main__footer {
+		margin: 0 auto;
+		padding: 0 20px 0 20px;
+
+		display: block;
+		float: none;
+		width: 100%;
+		height: 200px;
+		text-align: center;
+
+		background: #1a1c20 none repeat center top;
+		line-height: 23px;
+		font-size: 13px;
+		color: #ffffff;
+
+		user-select: none;
+	}
+}

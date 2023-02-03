@@ -1,0 +1,75 @@
+.vacancy__wrapper {
+	.vacancy__container {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+}
+
+.vacancy__title {
+	margin: 80px 0 0 0;
+	padding: 25px 0 20px 0;
+	width: 100%;
+	font-size: 30px;
+	color: #333333;
+	user-select: none;
+	position: relative;
+
+	border-bottom: dashed 1px #757575;
+	span {
+		position: relative;
+		left: 15px;
+	}
+}
+
+.vacancy__offers {
+	display: flex;
+	width: 100%;
+	@media (max-width: 800px) {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.item {
+	width: 50%;
+	padding: 17px;
+	.item__title {
+		color: #333333;
+		font-size: 32px;
+		font-weight: 300;
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}
+	.item__info {
+		display: block;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+
+		color: rgb(133, 134, 140);
+		font-size: 15px;
+		letter-spacing: normal;
+		line-height: 28px;
+	}
+	.item_button__container {
+		display: flex;
+		justify-self: center;
+		margin-bottom: 70px;
+		.item__button {
+			position: relative;
+			margin: 0 auto;
+			padding: 18px 18px;
+			border-radius: 10px;
+			background-color: #6dab3c;
+			color: #fff;
+			text-decoration: none;
+			vertical-align: middle;
+			cursor: pointer;
+			user-select: none;
+			transition: all 0.2s ease-in-out;
+		}
+	}
+}

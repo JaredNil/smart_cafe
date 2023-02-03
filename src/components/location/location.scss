@@ -1,0 +1,88 @@
+.locate {
+	padding-top: 150px;
+	padding-bottom: 300px;
+	.locate__column {
+		display: flex;
+		.column {
+			width: 275px;
+		}
+	}
+}
+
+.column {
+	text-align: left;
+	color: rgb(133, 134, 148);
+	position: relative;
+	padding: 0 12px;
+	.title {
+		font-size: 33px;
+		font-weight: 300;
+		height: 50px;
+	}
+	.dog {
+		font-size: 20px;
+		font-weight: 300;
+		height: 42px;
+	}
+	.menu {
+		font-style: 15px;
+		display: block;
+		width: 100%;
+		height: 27px;
+		color: rgb(133, 134, 148);
+		position: relative;
+		text-decoration: none;
+		&::after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			background-color: rgb(133, 134, 148);
+			bottom: 0;
+			left: 0;
+		}
+	}
+	.market {
+		.market__location {
+			span {
+				display: block;
+				&:first-child {
+					padding-top: 3px;
+					font-size: 20px;
+					height: 30px;
+				}
+				&:last-child {
+					font-size: 18px;
+					height: auto;
+				}
+			}
+		}
+		.market__timing {
+			display: block;
+			height: 30px;
+			padding-bottom: 30px;
+			position: relative;
+			span {
+				font-size: 15px;
+				display: block;
+				height: 20px;
+				padding-top: 4px;
+				&:first-child {
+					display: block;
+					padding-top: 8px;
+				}
+				&:last-child {
+				}
+			}
+			&::after {
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 2px;
+				background-color: rgb(133, 134, 148);
+				bottom: 6px;
+				left: 0;
+			}
+		}
+	}
+}
