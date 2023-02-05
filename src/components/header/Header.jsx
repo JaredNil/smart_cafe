@@ -4,6 +4,9 @@ import Links from './links/Links';
 import { Link } from 'react-router-dom';
 
 const Header = (props) => {
+
+
+
 	return (
 		<section className='smartCafe__header'>
 			<div className="smartCafe__container container">

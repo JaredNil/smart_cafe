@@ -5,7 +5,7 @@ import Footer from './../footer/Footer';
 
 const Vacancy = () => {
 	return (
-		<div>
+		<>
 			<Header linkColor='seku' />
 			<section className="vacancy__wrapper">
 				<div className="vacancy__container container">
@@ -82,7 +82,7 @@ const Vacancy = () => {
 				</div>
 			</section >
 			<Footer />
-		</div >
+		</ >
 	);
 };
 

@@ -86,19 +86,6 @@ video {
 	font: inherit;
 	vertical-align: baseline;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-	display: block;
-}
 html {
 	height: 100%;
 }
@@ -131,6 +118,8 @@ body {
 
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+
+	min-height: 100vh;
 }
 
 code {
@@ -138,7 +127,17 @@ code {
 }
 
 .smartCafe {
+	overflow: hidden;
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	section {
+		flex: 1 0 auto;
+	}
+	.footer__wrapper {
+		flex: 0 0 auto;
+	}
 }
 
 .container {

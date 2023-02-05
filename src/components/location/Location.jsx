@@ -5,7 +5,7 @@ import './location.scss'
 
 const Location = () => {
 	return (
-		<div>
+		<>
 			<Header linkColor='seku' />
 
 			<section className="locate container">
@@ -15,7 +15,7 @@ const Location = () => {
 					<div className="column">
 						<h2 className="title">Москва</h2>
 						<div className="dog">🤳🏼 @smart_cafe_moscow</div>
-						<a className="menu" href='#'>МЕНЮ 🍳🥑☕️</a>
+						<a className="menu" href='/'>МЕНЮ 🍳🥑☕️</a>
 
 						<div className="market">
 							<div className="market__location">
@@ -32,7 +32,7 @@ const Location = () => {
 					<div className="column">
 						<h2 className="title">Иркутск</h2>
 						<div className="dog">🤳🏼 @smart_cafe</div>
-						<a className="menu" href='#'>МЕНЮ 🍳🥑☕️</a>
+						<a className="menu" href='/'>МЕНЮ 🍳🥑☕️</a>
 
 						<div className="market">
 							<div className="market__location">
@@ -60,7 +60,7 @@ const Location = () => {
 				</div>
 			</section>
 			<Footer />
-		</div>
+		</>
 	);
 };
 

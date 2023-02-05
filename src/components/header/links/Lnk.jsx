@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 
 const LinkBtn = (props) => {
 	let hr = window.location.href.split('/')
-	console.log(hr[hr.length - 1])
-
 	return (
 		<li className="link" >
 			<Link to={`/${props.linkForBtn[0]}`}>

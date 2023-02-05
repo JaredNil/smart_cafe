@@ -14,7 +14,7 @@
 	max-width: 100%;
 
 	display: flex;
-	justify-content: start;
+	justify-content: flex-start;
 	user-select: none;
 	@media (width <= 576px) {
 		flex-direction: column;
@@ -73,7 +73,7 @@
 .footer__downline {
 	min-height: 180px;
 	display: flex;
-	justify-content: start;
+	justify-content: flex-start;
 	align-items: center;
 	@media (width <= 992px) {
 		justify-content: center;

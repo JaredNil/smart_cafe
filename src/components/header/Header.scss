@@ -15,6 +15,10 @@ $white: #fff;
 	display: flex;
 	align-items: center;
 
+	&.background-visible {
+		background-color: #fff;
+	}
+
 	.smartCafe__container {
 		position: relative;
 		display: flex;

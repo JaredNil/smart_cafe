@@ -1,12 +1,18 @@
 import React from 'react';
 import Header from './../header/Header';
+import Footer from './../footer/Footer';
 
 const School = () => {
 	return (
-		<div>
+		<>
 			<Header linkColor='seku' />
-			School
-		</div>
+			<section className='school__wrapper wrapper'>
+				<br /><br /><br /><br /><br /><br />
+				School in develop
+				Probably no, <br /> i'm too lazy
+			</section>
+			<Footer />
+		</>
 	);
 };
 

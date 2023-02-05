@@ -6,7 +6,7 @@ import './../gifts/gifts.scss'
 
 const Bonus = () => {
 	return (
-		<div>
+		<>
 			<Header linkColor='seku' />
 			<section className='bonusRepresentation__wrapper wrapper'>
 				<h1 className="title">Бонусная программа<br />smart_cashback</h1>
@@ -16,7 +16,7 @@ const Bonus = () => {
 				<a href='https://iiko.biz/L/04021' target="_ blank" className="button bonus__card">Получить карту</a>
 			</section>
 			<Footer />
-		</div>
+		</>
 	);
 };
 

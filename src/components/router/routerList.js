@@ -5,5 +5,4 @@ export const routerList = [
 	['school', 'школа'],
 	['vacancy', 'вакансии'],
 	['location', 'адреса'],
-	['pidor', 'Никита']
 ]
