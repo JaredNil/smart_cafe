@@ -42,6 +42,10 @@ const router = createBrowserRouter(
 				path="/location"
 				element={<Location />}
 			/>
+			<Route
+				path="/danilkdadurak"
+				element={<Main />}
+			/>
 		</>
 	)
 )
